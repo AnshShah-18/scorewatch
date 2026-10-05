@@ -30,6 +30,12 @@ python/calibrate.py                score -> point-in-time PD mapping (fit on 201
 BigQuery scorewatch.scores / scorecard / validation_metrics / score_bands /
          psi_by_vintage / csi_by_vintage / feature_iv / model_coefficients /
          calibration_summary / calibration_bands / score_to_pd
+   │  sql/07_dashboard_tables.sql  small pre-aggregated dash_* tables
+   ▼
+Google Sheets (Connected Sheets extracts)  and  dashboard/data/*.csv
+   │  python/build_tableau.py      generates dashboard/ScoreWatch.twb
+   ▼
+Tableau: "Model overview" + "Monitoring" dashboards (9 worksheets)
 ```
 
 ## Running it
@@ -47,6 +53,11 @@ bash scripts/03_quality_and_labels.sh
 gcloud auth application-default login
 gcloud auth application-default set-quota-project $PROJECT_ID
 bash scripts/04_build_scorecard.sh
+
+# 4. Dashboards
+bash scripts/05_dashboard_tables.sh          # dash_* tables in BigQuery
+bash scripts/06_export_dashboard_data.sh     # CSV export for Tableau
+.venv/bin/python python/build_tableau.py     # writes dashboard/ScoreWatch.twb
 ```
 
 ## Model design decisions
