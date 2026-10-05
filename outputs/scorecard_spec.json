@@ -1,0 +1,157 @@
+{
+  "selected": [
+    "credit_score",
+    "rate_spread",
+    "orig_dti",
+    "orig_cltv",
+    "term_bucket",
+    "num_borrowers",
+    "mi_pct",
+    "channel",
+    "loan_purpose",
+    "property_type"
+  ],
+  "base_score": 600,
+  "base_odds": 50,
+  "pdo": 20,
+  "factor": 28.85390081777927,
+  "offset": 487.1228762045055,
+  "intercept": -3.9699930518153437,
+  "coefficients": {
+    "credit_score": -0.8499089820551619,
+    "rate_spread": -0.43619812589477835,
+    "orig_dti": -0.6105461382800955,
+    "orig_cltv": -0.7136288261543323,
+    "term_bucket": -0.6205402793672533,
+    "num_borrowers": -0.8682488013020806,
+    "mi_pct": -0.22315965647498276,
+    "channel": -0.6323219729442773,
+    "loan_purpose": -1.0779389166947064,
+    "property_type": -0.5624417725888489
+  },
+  "bins": {
+    "credit_score": {
+      "kind": "numeric",
+      "edges": [
+        647.0,
+        687.0,
+        701.0,
+        712.0,
+        732.0,
+        750.0,
+        758.0,
+        765.0,
+        772.0,
+        783.0,
+        793.0,
+        798.0,
+        null
+      ],
+      "levels": {}
+    },
+    "rate_spread": {
+      "kind": "numeric",
+      "edges": [
+        -0.2297,
+        -0.1096,
+        0.006,
+        0.14,
+        0.2647,
+        0.4483,
+        null
+      ],
+      "levels": {}
+    },
+    "orig_dti": {
+      "kind": "numeric",
+      "edges": [
+        19.0,
+        22.0,
+        26.0,
+        29.0,
+        31.0,
+        33.0,
+        36.0,
+        39.0,
+        41.0,
+        45.0,
+        null
+      ],
+      "levels": {}
+    },
+    "orig_cltv": {
+      "kind": "numeric",
+      "edges": [
+        35.0,
+        45.0,
+        57.0,
+        66.0,
+        77.0,
+        84.0,
+        95.0,
+        null
+      ],
+      "levels": {}
+    },
+    "term_bucket": {
+      "kind": "categorical",
+      "edges": [],
+      "levels": {
+        "TERM_OVER_20Y": "TERM_OVER_20Y",
+        "TERM_15Y_OR_LESS": "TERM_15Y_OR_LESS",
+        "TERM_16_20Y": "TERM_16_20Y"
+      }
+    },
+    "num_borrowers": {
+      "kind": "numeric",
+      "edges": [
+        1.0,
+        null
+      ],
+      "levels": {}
+    },
+    "mi_pct": {
+      "kind": "numeric",
+      "edges": [
+        0.0,
+        null
+      ],
+      "levels": {}
+    },
+    "channel": {
+      "kind": "categorical",
+      "edges": [],
+      "levels": {
+        "RETAIL": "RETAIL",
+        "THIRD_PARTY": "THIRD_PARTY"
+      }
+    },
+    "loan_purpose": {
+      "kind": "categorical",
+      "edges": [],
+      "levels": {
+        "N": "N",
+        "P": "P",
+        "C": "C"
+      }
+    },
+    "property_type": {
+      "kind": "categorical",
+      "edges": [],
+      "levels": {
+        "SF": "SF",
+        "PU": "PU",
+        "CO": "CO",
+        "MH": "SF",
+        "CP": "SF",
+        "MISSING": "MISSING",
+        "OTHER": "SF"
+      }
+    }
+  },
+  "calibration": {
+    "window": "oot",
+    "a": -1.5013404530656675,
+    "b": 0.8523253570494425
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "as_of_vintages": "2005-2026",
+  "features": [
+    "credit_score",
+    "rate_spread",
+    "orig_dti",
+    "orig_cltv",
+    "term_bucket",
+    "num_borrowers",
+    "mi_pct",
+    "channel",
+    "loan_purpose",
+    "property_type"
+  ],
+  "roles": {
+    "train": {
+      "n": 385164.0,
+      "bads": 7471.0,
+      "bad_rate": 0.0194,
+      "mean_pd": 0.019,
+      "auc": 0.8536,
+      "gini": 0.7071,
+      "ks": 0.551,
+      "gini_credit_score_only": 0.5925
+    },
+    "test": {
+      "n": 164836.0,
+      "bads": 3099.0,
+      "bad_rate": 0.0188,
+      "mean_pd": 0.019,
+      "auc": 0.8541,
+      "gini": 0.7082,
+      "ks": 0.5588,
+      "gini_credit_score_only": 0.5928
+    },
+    "oot": {
+      "n": 200000.0,
+      "bads": 1414.0,
+      "bad_rate": 0.0071,
+      "mean_pd": 0.0188,
+      "auc": 0.7876,
+      "gini": 0.5752,
+      "ks": 0.444,
+      "gini_credit_score_only": 0.5012
+    },
+    "covid_holdout": {
+      "n": 100000.0,
+      "bads": 500.0,
+      "bad_rate": 0.005,
+      "mean_pd": 0.0136,
+      "auc": 0.7488,
+      "gini": 0.4977,
+      "ks": 0.4069,
+      "gini_credit_score_only": 0.4161
+    },
+    "oot_recent": {
+      "n": 107441.0,
+      "bads": 1619.0,
+      "bad_rate": 0.0151,
+      "mean_pd": 0.023,
+      "auc": 0.7943,
+      "gini": 0.5886,
+      "ks": 0.4552,
+      "gini_credit_score_only": 0.5387
+    }
+  },
+  "max_score_psi": 0.2186,
+  "vintages_with_score_shift": []
+}

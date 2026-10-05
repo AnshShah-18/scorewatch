@@ -1,0 +1,19 @@
+feature,type,n_bins,iv,trend,strength,median_yearly_csi,selected,reason
+credit_score,numeric,14,1.2734,decreasing,very strong,0.087,True,in model
+orig_interest_rate,numeric,12,1.1271,increasing,very strong,3.083,False,unstable across vintages (median CSI 3.08): economic-cycle proxy
+rate_spread,numeric,7,0.3348,increasing,strong,0.025,True,in model
+orig_dti,numeric,12,0.3266,increasing,strong,0.186,True,in model
+orig_cltv,numeric,9,0.3181,increasing,strong,0.04,True,in model
+orig_ltv,numeric,8,0.3098,increasing,strong,0.043,False,correlated with orig_cltv (|r|=0.93)
+term_bucket,categorical,3,0.2861,,medium,0.034,True,in model
+num_borrowers,numeric,3,0.1684,decreasing,medium,0.006,True,in model
+mi_pct,numeric,3,0.1585,increasing,medium,0.015,True,in model
+channel,categorical,2,0.0638,,weak,0.027,True,in model
+loan_purpose,categorical,3,0.0407,,weak,0.128,True,in model
+property_type,categorical,4,0.0246,,weak,0.008,True,in model
+occupancy_status,categorical,3,0.008,,unpredictive,0.008,False,IV below 0.02
+orig_upb,numeric,7,0.0076,increasing,unpredictive,0.005,False,IV below 0.02
+has_secondary_financing,categorical,2,0.0032,,unpredictive,0.004,False,IV below 0.02
+first_time_homebuyer_flag,categorical,3,0.0012,,unpredictive,0.011,False,IV below 0.02
+relief_refi_flag,categorical,2,0.0011,,unpredictive,0.165,False,IV below 0.02
+num_units,categorical,2,0.0,,unpredictive,0.0,False,IV below 0.02
