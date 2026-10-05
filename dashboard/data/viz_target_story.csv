@@ -1,0 +1,41 @@
+orig_year,series,bad_rate
+2005,Adjusted (forbearance excluded),0.0211799999999999
+2006,Adjusted (forbearance excluded),0.03416
+2007,Adjusted (forbearance excluded),0.06154
+2008,Adjusted (forbearance excluded),0.0445808916178321
+2009,Adjusted (forbearance excluded),0.0082798344033119
+2010,Adjusted (forbearance excluded),0.0086199999999999
+2011,Adjusted (forbearance excluded),0.00764
+2012,Adjusted (forbearance excluded),0.00728
+2013,Adjusted (forbearance excluded),0.00594
+2014,Adjusted (forbearance excluded),0.00664
+2015,Adjusted (forbearance excluded),0.0055399999999999
+2016,Adjusted (forbearance excluded),0.0059199999999999
+2017,Adjusted (forbearance excluded),0.0082999999999999
+2018,Adjusted (forbearance excluded),0.00742
+2019,Adjusted (forbearance excluded),0.0066399999999999
+2020,Adjusted (forbearance excluded),0.0045
+2021,Adjusted (forbearance excluded),0.0055
+2022,Adjusted (forbearance excluded),0.014360574422977
+2023,Adjusted (forbearance excluded),0.0152709951164838
+2024,Adjusted (forbearance excluded),0.0184516646610508
+2005,Unadjusted (raw 90+ days past due),0.02132
+2006,Unadjusted (raw 90+ days past due),0.03438
+2007,Unadjusted (raw 90+ days past due),0.0618600000000001
+2008,Unadjusted (raw 90+ days past due),0.0447408948178963
+2009,Unadjusted (raw 90+ days past due),0.0083998320033599
+2010,Unadjusted (raw 90+ days past due),0.0087599999999999
+2011,Unadjusted (raw 90+ days past due),0.00776
+2012,Unadjusted (raw 90+ days past due),0.0075199999999999
+2013,Unadjusted (raw 90+ days past due),0.00648
+2014,Unadjusted (raw 90+ days past due),0.00736
+2015,Unadjusted (raw 90+ days past due),0.00692
+2016,Unadjusted (raw 90+ days past due),0.0081399999999999
+2017,Unadjusted (raw 90+ days past due),0.0103000000000001
+2018,Unadjusted (raw 90+ days past due),0.02668
+2019,Unadjusted (raw 90+ days past due),0.0463000000000004
+2020,Unadjusted (raw 90+ days past due),0.01656
+2021,Unadjusted (raw 90+ days past due),0.0096599999999999
+2022,Unadjusted (raw 90+ days past due),0.0185207408296332
+2023,Unadjusted (raw 90+ days past due),0.0177727964134176
+2024,Unadjusted (raw 90+ days past due),0.0215269421045595

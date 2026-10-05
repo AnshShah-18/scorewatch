@@ -1,0 +1,221 @@
+feature,orig_year,year,csi,status
+Origination channel,2006,'06,0.1020932886795532,Monitor
+Credit score,2007,'07,0.1404185553685668,Monitor
+Credit score,2005,'05,0.1468402584591239,Monitor
+Credit score,2006,'06,0.1649951338025112,Monitor
+Credit score,2009,'09,0.1077116365918177,Monitor
+Loan purpose,2007,'07,0.2259204021562037,Monitor
+Loan purpose,2010,'10,0.1292343421093006,Monitor
+Loan purpose,2011,'11,0.1390248207159446,Monitor
+Loan purpose,2014,'14,0.1045904017101508,Monitor
+Loan purpose,2019,'19,0.2022597750994431,Monitor
+Loan purpose,2005,'05,0.1490417480241503,Monitor
+Loan purpose,2026,'26,0.1838107570048936,Monitor
+Mortgage insurance,2019,'19,0.1771986492977511,Monitor
+Mortgage insurance,2022,'22,0.1775610707501362,Monitor
+Mortgage insurance,2018,'18,0.1843592058245025,Monitor
+Mortgage insurance,2025,'25,0.2227878836989915,Monitor
+Mortgage insurance,2026,'26,0.1486907904817671,Monitor
+Mortgage insurance,2017,'17,0.1155323002569113,Monitor
+Combined LTV,2008,'08,0.1355118645182896,Monitor
+Combined LTV,2012,'12,0.1363299380894704,Monitor
+Debt-to-income,2011,'11,0.1857435035148021,Monitor
+Debt-to-income,2014,'14,0.1121837303213565,Monitor
+Debt-to-income,2013,'13,0.1880096524663258,Monitor
+Debt-to-income,2010,'10,0.1468691189322252,Monitor
+Debt-to-income,2016,'16,0.1919266387881836,Monitor
+Debt-to-income,2005,'05,0.2402019343573062,Monitor
+Debt-to-income,2015,'15,0.1145505914700914,Monitor
+Rate spread vs. market,2022,'22,0.248524605072097,Monitor
+Rate spread vs. market,2026,'26,0.1966573434464867,Monitor
+Rate spread vs. market,2024,'24,0.1579861287820639,Monitor
+Loan term,2026,'26,0.1041783436517411,Monitor
+Loan term,2025,'25,0.1590871705062259,Monitor
+Loan term,2022,'22,0.1380159041007604,Monitor
+Loan term,2007,'07,0.1199711154793112,Monitor
+Loan purpose,2022,'22,0.7008791228409965,Significant shift
+Loan purpose,2018,'18,0.556328544640849,Significant shift
+Loan purpose,2024,'24,0.9591083986968136,Significant shift
+Loan purpose,2006,'06,0.2953907400766077,Significant shift
+Loan purpose,2023,'23,1.3913635372662994,Significant shift
+Loan purpose,2012,'12,0.32396274075045,Significant shift
+Loan purpose,2017,'17,0.257328316061059,Significant shift
+Loan purpose,2025,'25,0.6688154773591304,Significant shift
+Mortgage insurance,2023,'23,0.3059467532887323,Significant shift
+Mortgage insurance,2024,'24,0.2566374687346775,Significant shift
+Debt-to-income,2021,'21,1.097906336033958,Significant shift
+Debt-to-income,2012,'12,0.292039459825113,Significant shift
+Debt-to-income,2006,'06,0.3311023032108997,Significant shift
+Debt-to-income,2023,'23,1.3443005958001395,Significant shift
+Debt-to-income,2020,'20,1.1650198514811307,Significant shift
+Debt-to-income,2008,'08,0.3457700542511379,Significant shift
+Debt-to-income,2022,'22,1.2737647589620926,Significant shift
+Debt-to-income,2025,'25,1.2897522494223952,Significant shift
+Debt-to-income,2019,'19,0.9188894882959548,Significant shift
+Debt-to-income,2024,'24,1.3182732731044613,Significant shift
+Debt-to-income,2026,'26,1.227865749038604,Significant shift
+Debt-to-income,2007,'07,0.3323770775495658,Significant shift
+Debt-to-income,2018,'18,0.4698065403466884,Significant shift
+Debt-to-income,2017,'17,0.2527285180806133,Significant shift
+Rate spread vs. market,2023,'23,0.284881010225372,Significant shift
+Loan term,2024,'24,0.3027067272321247,Significant shift
+Loan term,2023,'23,0.32458976622349,Significant shift
+Origination channel,2016,'16,0.0071038757583307,Stable
+Origination channel,2010,'10,0.0155156505871755,Stable
+Origination channel,2026,'26,0.0015882603557464,Stable
+Origination channel,2021,'21,0.0006708065806237955,Stable
+Origination channel,2009,'09,0.0032959030418656,Stable
+Origination channel,2024,'24,0.0251795897235941,Stable
+Origination channel,2022,'22,0.0040266953665654,Stable
+Origination channel,2015,'15,0.0069869178549368,Stable
+Origination channel,2017,'17,0.0027739223937064,Stable
+Origination channel,2018,'18,2.068217031528869e-06,Stable
+Origination channel,2025,'25,0.0139234371803674,Stable
+Origination channel,2013,'13,0.042634617028,Stable
+Origination channel,2023,'23,0.0421463287882386,Stable
+Origination channel,2008,'08,0.027883853022389,Stable
+Origination channel,2005,'05,0.0379758134074881,Stable
+Origination channel,2012,'12,0.0479412507919806,Stable
+Origination channel,2007,'07,0.0427411435241142,Stable
+Origination channel,2020,'20,0.0003677293772781274,Stable
+Origination channel,2019,'19,0.0084464666979708,Stable
+Origination channel,2011,'11,0.0178148683374974,Stable
+Origination channel,2014,'14,0.0071939816536622,Stable
+Credit score,2011,'11,0.0884112140926694,Stable
+Credit score,2023,'23,0.0398726043104197,Stable
+Credit score,2015,'15,0.0168079457185983,Stable
+Credit score,2022,'22,0.0326475108991268,Stable
+Credit score,2017,'17,0.0257670960556696,Stable
+Credit score,2008,'08,0.013124248690772,Stable
+Credit score,2013,'13,0.0085702182320232,Stable
+Credit score,2016,'16,0.0209096739414538,Stable
+Credit score,2021,'21,0.0289095240967757,Stable
+Credit score,2012,'12,0.0811091115765511,Stable
+Credit score,2025,'25,0.0608610084946421,Stable
+Credit score,2010,'10,0.0899402577524361,Stable
+Credit score,2018,'18,0.0313256734313416,Stable
+Credit score,2014,'14,0.0083074190082006,Stable
+Credit score,2024,'24,0.0316678857479501,Stable
+Credit score,2026,'26,0.0540501385760509,Stable
+Credit score,2019,'19,0.04275625908341,Stable
+Credit score,2020,'20,0.0916420213492616,Stable
+Loan purpose,2009,'09,0.0947059505885778,Stable
+Loan purpose,2013,'13,0.0882313852589333,Stable
+Loan purpose,2016,'16,0.0396766527467832,Stable
+Loan purpose,2015,'15,0.042851496566059,Stable
+Loan purpose,2020,'20,0.0456103383460096,Stable
+Loan purpose,2021,'21,0.0025747103545851,Stable
+Loan purpose,2008,'08,0.0761295202556843,Stable
+Mortgage insurance,2013,'13,0.0059936845235793,Stable
+Mortgage insurance,2007,'07,0.0143240762124112,Stable
+Mortgage insurance,2015,'15,0.0485642049706796,Stable
+Mortgage insurance,2005,'05,0.0055634708343949,Stable
+Mortgage insurance,2020,'20,0.0394558373337195,Stable
+Mortgage insurance,2021,'21,0.022370326977838,Stable
+Mortgage insurance,2010,'10,0.069166676322524,Stable
+Mortgage insurance,2012,'12,0.0049957701604538,Stable
+Mortgage insurance,2006,'06,0.0028192596912236,Stable
+Mortgage insurance,2009,'09,0.0657134625689212,Stable
+Mortgage insurance,2014,'14,0.0542307438886627,Stable
+Mortgage insurance,2008,'08,0.007015018595062,Stable
+Mortgage insurance,2011,'11,0.0317892957358012,Stable
+Mortgage insurance,2016,'16,0.0638995371278017,Stable
+Number of borrowers,2015,'15,0.0105862207847683,Stable
+Number of borrowers,2012,'12,0.0063690959372285,Stable
+Number of borrowers,2022,'22,0.06379774543766,Stable
+Number of borrowers,2018,'18,0.0428386414784292,Stable
+Number of borrowers,2025,'25,0.0294017424186865,Stable
+Number of borrowers,2010,'10,0.0098020115905545,Stable
+Number of borrowers,2008,'08,0.005674888446362,Stable
+Number of borrowers,2014,'14,0.0121097583471946,Stable
+Number of borrowers,2023,'23,0.0528407815939859,Stable
+Number of borrowers,2009,'09,0.0114636464543426,Stable
+Number of borrowers,2007,'07,0.0052596509783003,Stable
+Number of borrowers,2021,'21,0.0410475722935845,Stable
+Number of borrowers,2024,'24,0.0406584307943296,Stable
+Number of borrowers,2013,'13,0.0009566933495449828,Stable
+Number of borrowers,2006,'06,0.0009065829259639322,Stable
+Number of borrowers,2020,'20,0.0200351447706495,Stable
+Number of borrowers,2026,'26,0.0353475309393231,Stable
+Number of borrowers,2016,'16,0.0184275219298463,Stable
+Number of borrowers,2017,'17,0.0306083016556808,Stable
+Number of borrowers,2005,'05,0.0024254085556041,Stable
+Number of borrowers,2011,'11,0.0059719842211627,Stable
+Number of borrowers,2019,'19,0.040804138146775,Stable
+Combined LTV,2019,'19,0.0661684573961002,Stable
+Combined LTV,2025,'25,0.0545580285982666,Stable
+Combined LTV,2015,'15,0.0750607500378895,Stable
+Combined LTV,2011,'11,0.0329344705854189,Stable
+Combined LTV,2013,'13,0.0388655032746712,Stable
+Combined LTV,2017,'17,0.0651979942580563,Stable
+Combined LTV,2022,'22,0.069547244852422,Stable
+Combined LTV,2023,'23,0.0969425661175056,Stable
+Combined LTV,2024,'24,0.0697895445067367,Stable
+Combined LTV,2009,'09,0.0847956436331424,Stable
+Combined LTV,2020,'20,0.0784745162596246,Stable
+Combined LTV,2018,'18,0.0697607958531696,Stable
+Combined LTV,2026,'26,0.0310307819335362,Stable
+Combined LTV,2016,'16,0.0809695169258572,Stable
+Combined LTV,2014,'14,0.0603113898240066,Stable
+Combined LTV,2006,'06,0.0085440705782579,Stable
+Combined LTV,2007,'07,0.0239854552696614,Stable
+Combined LTV,2005,'05,0.0304103340719745,Stable
+Combined LTV,2021,'21,0.0845886707432867,Stable
+Combined LTV,2010,'10,0.0311438874230703,Stable
+Debt-to-income,2009,'09,0.0601856828941395,Stable
+Property type,2015,'15,0.032174222055975,Stable
+Property type,2012,'12,0.0020701426988794,Stable
+Property type,2018,'18,0.0497799864251576,Stable
+Property type,2009,'09,0.0027043629866653,Stable
+Property type,2011,'11,0.0053152731873708,Stable
+Property type,2022,'22,0.063400257754723,Stable
+Property type,2026,'26,0.0801670041155631,Stable
+Property type,2008,'08,0.0036416009187407,Stable
+Property type,2020,'20,0.0457898372879615,Stable
+Property type,2024,'24,0.0856619763535637,Stable
+Property type,2025,'25,0.0847921016677861,Stable
+Property type,2005,'05,0.0367676699172513,Stable
+Property type,2006,'06,0.0161975983953631,Stable
+Property type,2013,'13,0.0068756189661293,Stable
+Property type,2017,'17,0.0356571126195045,Stable
+Property type,2016,'16,0.0368341663368615,Stable
+Property type,2021,'21,0.0440266501790765,Stable
+Property type,2010,'10,0.0075423407461867,Stable
+Property type,2019,'19,0.0528961032011696,Stable
+Property type,2007,'07,0.0189766233632067,Stable
+Property type,2023,'23,0.0847254485590893,Stable
+Property type,2014,'14,0.022631968476458,Stable
+Rate spread vs. market,2020,'20,0.0364182885047929,Stable
+Rate spread vs. market,2006,'06,0.0169989471668125,Stable
+Rate spread vs. market,2007,'07,0.0080628285124239,Stable
+Rate spread vs. market,2025,'25,0.0713681976310919,Stable
+Rate spread vs. market,2011,'11,0.0149833780863052,Stable
+Rate spread vs. market,2014,'14,0.0248234722948546,Stable
+Rate spread vs. market,2016,'16,0.0211446439550516,Stable
+Rate spread vs. market,2012,'12,0.0276489827204584,Stable
+Rate spread vs. market,2017,'17,0.0295367038380641,Stable
+Rate spread vs. market,2008,'08,0.069403442720891,Stable
+Rate spread vs. market,2013,'13,0.0102876756296277,Stable
+Rate spread vs. market,2010,'10,0.0251776967815577,Stable
+Rate spread vs. market,2009,'09,0.0294891393814197,Stable
+Rate spread vs. market,2018,'18,0.0232726862627983,Stable
+Rate spread vs. market,2019,'19,0.0480688756875587,Stable
+Rate spread vs. market,2005,'05,0.0339002397915615,Stable
+Rate spread vs. market,2015,'15,0.0063153281343666,Stable
+Rate spread vs. market,2021,'21,0.0155786562318421,Stable
+Loan term,2006,'06,0.0810598748375987,Stable
+Loan term,2021,'21,0.0044071063738807,Stable
+Loan term,2020,'20,0.0034078801052884,Stable
+Loan term,2012,'12,0.0751250431203604,Stable
+Loan term,2011,'11,0.0960309248865402,Stable
+Loan term,2017,'17,0.01677692428865,Stable
+Loan term,2009,'09,0.0133784239539402,Stable
+Loan term,2018,'18,0.0685101391793984,Stable
+Loan term,2019,'19,0.0552144281578812,Stable
+Loan term,2008,'08,0.0756966832342247,Stable
+Loan term,2014,'14,0.0013122157068498,Stable
+Loan term,2015,'15,5.718621846410333e-05,Stable
+Loan term,2005,'05,0.0076034756783267,Stable
+Loan term,2010,'10,0.036102688749519,Stable
+Loan term,2016,'16,0.0004354687613188803,Stable
+Loan term,2013,'13,0.0285075110105604,Stable

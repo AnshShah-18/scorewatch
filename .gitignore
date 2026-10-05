@@ -1,5 +1,8 @@
-data/
+/data/
 config.env
 __pycache__/
 .venv/
 .DS_Store
+# Tableau lock/recovery files
+.~*
+*.twbr

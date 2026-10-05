@@ -1,0 +1,11 @@
+feature,points_range,min_points,max_points,feature_iv
+Origination channel,10,55,65,0.0638
+Credit score,93,18,111,1.2734
+Loan purpose,15,51,66,0.0407
+Mortgage insurance,7,55,62,0.1585
+Number of borrowers,20,51,71,0.1684
+Combined LTV,49,44,93,0.3181
+Debt-to-income,36,45,81,0.3266
+Property type,7,59,66,0.0246
+Rate spread vs. market,21,48,69,0.3348
+Loan term,30,56,86,0.2861
