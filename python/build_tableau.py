@@ -17,6 +17,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "dashboard" / "data"
 TWB = ROOT / "dashboard" / "ScoreWatch.twb"
 
+# When set (by package_twbx.py), each data source also gets an embedded Hyper
+# extract at <EXTRACT_DIR>/<key>.hyper. Tableau Public only accepts extracts.
+EXTRACT_DIR: str | None = None
+
 BLUE, GRAY, ORANGE = "#1f4e79", "#b0b7bf", "#e07b39"
 GREEN, AMBER, RED = "#4e9a52", "#e8a33d", "#c8423b"
 ROLE_COLORS = ["#1f4e79", "#6a9fcf", "#e07b39", "#9b59b6", "#4e9a52"]
@@ -166,6 +170,19 @@ class DS:
             role, typ = self.role(c)
             fields.append(f"      <column-instance column='[{c}]' derivation='None' "
                           f"name='{self.inst(c)}' pivot='key' type='{typ}' />")
+        extract = ""
+        if EXTRACT_DIR:
+            erecs = recs.replace(f"<parent-name>[{self.file}]</parent-name>", "<parent-name>[Extract]</parent-name>")
+            extract = f"""
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='{EXTRACT_DIR}/{self.key}.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/05/2026 12:00:00 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false' />
+          <metadata-records>
+{erecs}
+          </metadata-records>
+        </connection>
+      </extract>"""
         style = ""
         if self.palettes:
             rules = "".join(palette(self.inst(c), m) for c, m in self.palettes.items())
@@ -187,7 +204,7 @@ class DS:
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-{chr(10).join(fields)}{style}
+{chr(10).join(fields)}{extract}{style}
     </datasource>"""
 
     # field references -----------------------------------------------------

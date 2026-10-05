@@ -3,6 +3,10 @@
 Credit risk scorecard development, validation, and monitoring on Freddie Mac
 Single-Family Loan-Level data (2005–2026), built on Google Cloud.
 
+**Live dashboards (Tableau Public):**
+[Model overview](https://public.tableau.com/app/profile/ansh.shah5429/viz/ScoreWatch/Modeloverview) ·
+[Monitoring](https://public.tableau.com/app/profile/ansh.shah5429/viz/ScoreWatch/Monitoring)
+
 ## Architecture
 
 ```
@@ -34,8 +38,9 @@ BigQuery scorewatch.scores / scorecard / validation_metrics / score_bands /
    ▼
 Google Sheets (Connected Sheets extracts)  and  dashboard/data/*.csv
    │  python/build_tableau.py      generates dashboard/ScoreWatch.twb
+   │  python/package_twbx.py       Hyper extracts + packaged ScoreWatch.twbx
    ▼
-Tableau: "Model overview" + "Monitoring" dashboards (9 worksheets)
+Tableau Public: "Model overview" + "Monitoring" dashboards (9 worksheets)
 ```
 
 ## Running it
@@ -58,6 +63,7 @@ bash scripts/04_build_scorecard.sh
 bash scripts/05_dashboard_tables.sh          # dash_* tables in BigQuery
 bash scripts/06_export_dashboard_data.sh     # CSV export for Tableau
 .venv/bin/python python/build_tableau.py     # writes dashboard/ScoreWatch.twb
+bash scripts/07_package_twbx.sh              # ScoreWatch.twbx with extracts for Tableau Public
 ```
 
 ## Model design decisions
